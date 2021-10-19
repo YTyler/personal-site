@@ -1,0 +1,11 @@
+.navContainer {
+  background-color: rgb(195, 195, 195);
+  padding: 1em;
+  border-width: 0px 0px 2px 0px;
+  border-color: black;
+  border-style: solid;
+}
+
+.button {
+  font-size: 1em;
+}
