@@ -1,6 +1,18 @@
-.title {
-  font-size: 48px;
-  color: blue;
-  border: 2px solid black;
-  margin: 10px;
+.hero {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightpink;
+  padding: 1em;
+}
+
+.content {
+  width: 50%;
+  margin: auto;
+}
+
+.profile {
+  border-radius: 30%;
+  height: auto;
+  width: 20%;
+  height: 20%;
 }
