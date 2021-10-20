@@ -4,7 +4,7 @@ import Nav from "./components/Nav";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="row">
       <Nav />
       <Home />
     </div>

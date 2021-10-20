@@ -5,27 +5,24 @@ import {
   GiTwoHandedSword,
   GiSprint,
 } from "react-icons/gi";
+import NavButton from "./NavButton";
 import styles from "../styles/Nav.module.css";
 
 export default function Nav() {
   return (
-    <div className={"row " + styles.navContainer}>
-      <div className={styles.buttton}>
+    <nav className={"row " + styles.navContainer}>
+      <NavButton text="Usb Key">
         <GiUsbKey />
-        <h2>Usb Key</h2>
-      </div>
-      <div>
-        <GiTwoHandedSword />
-        <h2>Two Handed Sword</h2>
-      </div>
-      <div>
-        <GiSprint />
-        <h2>Sprint</h2>
-      </div>
-      <div>
+      </NavButton>
+      <NavButton text="Lockpicks">
         <GiLockpicks />
-        <h2>LockPicks</h2>
-      </div>
-    </div>
+      </NavButton>
+      <NavButton text="Two Handed Sword">
+        <GiTwoHandedSword />
+      </NavButton>
+      <NavButton text="Sprint">
+        <GiSprint />
+      </NavButton>
+    </nav>
   );
 }
