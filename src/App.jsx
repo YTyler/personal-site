@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 
 export default function App() {
   return (
-    <div className="app">
+    <div className="row">
       <Nav />
       <main>
         <Home />
