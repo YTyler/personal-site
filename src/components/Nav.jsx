@@ -10,7 +10,7 @@ import styles from "../styles/Nav.module.css";
 
 export default function Nav() {
   return (
-    <nav className={"row " + styles.navContainer}>
+    <nav className={`row ${styles.navContainer}`}>
       <NavButton text="Usb Key">
         <GiUsbKey />
       </NavButton>
