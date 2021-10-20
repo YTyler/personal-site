@@ -1,6 +1,7 @@
 .navContainer {
   display: flex;
-  position: static;
+  flex: 1;
+  position: sticky;
   flex-direction: column;
   justify-content: space-around;
   background-color: rgb(195, 195, 195);
@@ -8,4 +9,5 @@
   border-color: black;
   border-style: solid;
   height: 100vh;
+  width: 10%;
 }

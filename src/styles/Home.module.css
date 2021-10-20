@@ -1,22 +1,18 @@
 .homeContainer {
-  display: flex;
-  height: 30vh;
-  width: 100%;
   justify-content: space-around;
   background-color: lightpink;
-  padding: 1em;
 }
 
 .content {
   margin: auto;
   padding: 1em;
-  width: 70%;
   border-radius: 16px;
+  width: 70%;
 }
 
 .profile {
+  margin: auto;
   border: 1px solid rgb(195, 195, 195);
   border-radius: 30%;
-  height: 80%;
-  margin: auto;
+  max-height: 20em;
 }
