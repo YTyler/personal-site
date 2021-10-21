@@ -3,3 +3,9 @@
   grid-template-columns: 1fr 1fr;
   justify-content: space-around;
 }
+
+@media (max-width: 1280px) {
+  .projectContainer {
+    grid-template-columns: 1fr;
+  }
+}

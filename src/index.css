@@ -11,15 +11,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(236, 236, 236);
 }
 
 .row {
   display: flex;
+  background-color: rgb(236, 236, 236);
 }
 
 .mainSection {
   display: flex;
-  width: 100%;
+
   padding: 1em 0em 1em 0em;
 }
