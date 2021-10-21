@@ -7,6 +7,8 @@ export default function Projects() {
     <section className={`mainSection ${styles.projectContainer}`}>
       <ProjectCard url="/fm.jpg" alttext="fighting mongooses" />
       <ProjectCard url="splash.png" alttext="pop" />
+      <ProjectCard url="splash.png" alttext="pop" />
+      <ProjectCard url="/fm.jpg" alttext="fighting mongooses" />
     </section>
   );
 }

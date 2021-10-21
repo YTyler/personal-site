@@ -1,4 +1,5 @@
 .projectContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-around;
-  background-color: rgb(116, 216, 255);
 }

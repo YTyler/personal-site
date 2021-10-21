@@ -1,0 +1,22 @@
+.cardContainer {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  /* box-shadow: inset 2px -3px 3px grey; */
+  margin: 1em;
+  padding: 1em;
+}
+
+.titleSection {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1em 0em 1em 0em;
+}
+
+.title {
+  font-size: 2em;
+  margin: auto 0;
+}
+
+.content {
+  margin: 0.5em 2em 0em 2em;
+}
