@@ -1,27 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import {
-  GiUsbKey,
-  GiLockpicks,
-  GiTwoHandedSword,
-  GiSprint,
-} from "react-icons/gi";
+  FaHome,
+  FaFolder,
+  FaFolderOpen,
+  FaAddressCard,
+  FaTools,
+  FaPenFancy,
+} from "react-icons/fa";
 import NavButton from "./NavButton";
 import styles from "../styles/Nav.module.css";
 
 export default function Nav() {
+  const [projectSelected, setProjectSelected] = useState(false);
   return (
     <nav className={`row ${styles.navContainer}`}>
-      <NavButton text="Usb Key">
-        <GiUsbKey />
+      <NavButton text="Back to Top">
+        <FaHome />
       </NavButton>
-      <NavButton text="Lockpicks">
-        <GiLockpicks />
+      <NavButton
+        text="Projects"
+        onClick={() => setProjectSelected(!projectSelected)}
+      >
+        {projectSelected ? <FaFolderOpen /> : <FaFolder />}
       </NavButton>
-      <NavButton text="Two Handed Sword">
-        <GiTwoHandedSword />
+      <NavButton text="Contact">
+        <FaAddressCard />
       </NavButton>
-      <NavButton text="Sprint">
-        <GiSprint />
+      <NavButton text="Tech">
+        <FaTools />
+      </NavButton>
+      <NavButton text="Resume">
+        <FaPenFancy />
       </NavButton>
     </nav>
   );
