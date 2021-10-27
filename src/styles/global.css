@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.row {
+#root {
   display: flex;
   background-color: rgb(236, 236, 236);
 }
