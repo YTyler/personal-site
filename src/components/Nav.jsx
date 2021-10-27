@@ -14,12 +14,16 @@ export default function Nav() {
   const [projectSelected, setProjectSelected] = useState(false);
   return (
     <nav className={`row ${styles.navContainer}`}>
-      <NavButton text="Back to Top">
+      <div className={styles.title}>
+        <h1>Tyler Yates</h1>
+        <h2>Web & Native Development</h2>
+      </div>
+      <NavButton text="Home">
         <FaHome />
       </NavButton>
       <NavButton
         text="Projects"
-        onClick={() => setProjectSelected(!projectSelected)}
+        onClick={() => setProjectSelected((prevState) => !prevState)} //reversing state with function version
       >
         {projectSelected ? <FaFolderOpen /> : <FaFolder />}
       </NavButton>

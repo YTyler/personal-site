@@ -1,6 +1,7 @@
 .homeContainer {
   justify-content: space-around;
   background-color: rgb(187, 185, 185);
+  height: 40vh;
 }
 
 .content {
@@ -10,9 +11,9 @@
   width: 70%;
 }
 
-.profile {
+.profilePic {
   margin: auto;
   border: 1px solid rgb(195, 195, 195);
-  border-radius: 30%;
+  border-radius: 2.5%;
   max-height: 20em;
 }

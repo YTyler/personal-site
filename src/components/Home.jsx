@@ -20,7 +20,7 @@ export default function Home() {
           voluptatum natus, quam non.
         </p>
       </div>
-      <img className={styles.profile} src="/profile.jpg" alt="profile_pic" />
+      <img className={styles.profilePic} src="/profile.jpg" alt="profile_pic" />
     </section>
   );
 }
