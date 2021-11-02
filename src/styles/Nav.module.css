@@ -7,15 +7,19 @@
   background-color: rgb(161, 161, 161);
   border-right: 2px solid black;
   height: 100vh;
-  width: 90rem;
+  width: 100em;
 }
 
 .title {
-  font-size: 2em;
-  padding: 1em;
+  font-size: 2.5rem;
+  margin: 1em 0.2em;
 }
 
 .title h2 {
+  font-size: 0.7em;
   padding: 0.25em;
-  font-size: 0.75em;
+}
+
+.subNav {
+  font-size: 1.5rem;
 }

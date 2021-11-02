@@ -27,15 +27,15 @@ export default function Nav() {
       >
         {projectSelected ? <FaFolderOpen /> : <FaFolder />}
       </NavButton>
-      <NavButton text="Contact">
-        <FaAddressCard />
-      </NavButton>
-      <NavButton text="Tech">
-        <FaTools />
-      </NavButton>
       <NavButton text="Resume">
         <FaPenFancy />
       </NavButton>
+      <section className={styles.subNav}>
+        <h2>Contact</h2>
+      </section>
+      <section className={styles.subNav}>
+        <h3>Tech</h3>
+      </section>
     </nav>
   );
 }
