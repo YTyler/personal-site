@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  FaHome,
-  FaFolder,
-  FaFolderOpen,
-  FaAddressCard,
-  FaTools,
-  FaPenFancy,
-} from "react-icons/fa";
+import { FaHome, FaFolder, FaFolderOpen, FaPenFancy } from "react-icons/fa";
 import NavButton from "./NavButton";
 import styles from "../styles/Nav.module.css";
 
