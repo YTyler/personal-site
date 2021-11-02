@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <section className={`mainSection ${styles.homeContainer}`}>
+    <section className={`mainRow ${styles.homeContainer}`}>
       <div className={styles.content}>
         <h1>Title Here</h1>
         <p>

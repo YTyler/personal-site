@@ -1,11 +1,10 @@
-.projectContainer {
+.projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: space-around;
 }
 
 @media (max-width: 1280px) {
-  .projectContainer {
+  .projects {
     grid-template-columns: 1fr;
   }
 }
