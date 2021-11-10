@@ -72,7 +72,7 @@ export default function Nav() {
             </a>
           </div>
           <div>
-            <a href="https://github.com/">
+            <a href="https://www.postman.com/">
               <SiPostman id={styles.postmanIcon} />
             </a>
           </div>
