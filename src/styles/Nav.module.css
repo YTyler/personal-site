@@ -4,20 +4,28 @@
   top: 0;
   left: 0;
   flex-direction: column;
+  text-align: center;
   background-color: rgb(161, 161, 161);
   border-right: 2px solid black;
   height: 100vh;
-  width: 100em;
+  /* width: em; */
+}
+
+.profilePic {
+  margin: auto;
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 2.5%;
+  max-height: 18em;
 }
 
 .title {
   font-size: 2.5rem;
-  margin: 1em 0.2em;
+  margin: 1em 0em 0.2em;
 }
 
 .title h2 {
   font-size: 0.7em;
-  padding: 0.25em;
+  padding: 0.25em 0em;
 }
 
 .subNav {
@@ -25,7 +33,45 @@
   background-color: rgb(255, 255, 255);
   margin: 0.5em;
   border-radius: 20px;
-  padding: 0.3em 0em 0.75em 0em;
+  padding: 0.5em 0.75em 0.75em;
+}
+
+.contactLinks {
+  margin-top: 0.3em;
+  font-size: 2.5rem;
+}
+
+.contactLinks a:hover {
+  border-radius: 50px;
+  background-color: rgba(187, 185, 185, 0.5);
+  box-shadow: black 0px 0px 5px;
+}
+.contactLinks a:active {
+  background-color: rgb(187, 185, 185);
+  box-shadow: black 0px 0px 10px;
+}
+
+.contactItem {
+  display: flex;
+  padding: 0.5rem 1.5rem;
+}
+
+.contactLabel {
+  font-size: 1.5rem;
+  margin: auto 0;
+  margin-left: 1em;
+}
+
+#liIcon {
+  color: #095cae;
+}
+
+#gitIcon {
+  color: #14181f;
+}
+
+#mailIcon {
+  color: #14181f;
 }
 
 .techIcons {
@@ -34,7 +80,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 0.5em;
   justify-items: center;
-  font-size: 2em;
+  font-size: 2.5rem;
 }
 
 #jsIcon {
@@ -66,7 +112,7 @@
   color: #e56131;
 }
 
-#gitIcon {
+#exIcon {
   color: #14181f;
 }
 
@@ -77,8 +123,12 @@
   border-radius: 5px;
 }
 
+.resume {
+  color: blue;
+}
+
 @media (max-width: 1280px) {
-  .techIcons {
-    grid-template-columns: 1fr 1fr 1fr;
+  .navContainer {
+    display: none;
   }
 }
