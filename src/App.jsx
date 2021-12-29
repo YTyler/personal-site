@@ -2,6 +2,8 @@ import React from "react";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
 
 export default function App() {
   return (
@@ -10,6 +12,8 @@ export default function App() {
       <main>
         <Home />
         <Projects />
+        <Education />
+        <Experience />
       </main>
     </>
   );
