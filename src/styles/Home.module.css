@@ -1,11 +1,6 @@
 .homeContainer {
   justify-content: end;
-  background: linear-gradient(
-    179deg,
-    rgb(103, 99, 192) 0%,
-    rgb(190, 187, 243) 30%,
-    rgb(216, 219, 226) 150%
-  );
+  background: rgb(160, 159, 209);
   padding: 1em 0em 4em;
 }
 

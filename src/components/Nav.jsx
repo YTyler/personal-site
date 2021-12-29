@@ -18,19 +18,23 @@ export default function Nav() {
   return (
     <nav className={`row ${styles.navContainer}`}>
       <section>
-        <div className={styles.title}>
-          <h1>Tyler Yates</h1>
-          <h2>Web & Native Development</h2>
-        </div>
         <img
           className={styles.profilePic}
           src="/profile.jpg"
           alt="profile_pic"
         />
+        <div className={styles.title}>
+          <h1>Tyler Yates</h1>
+          <h2>Web & Native Development</h2>
+        </div>
       </section>
       <section className={styles.subNav}>
         <h3>Contact Me</h3>
         <div className={styles.contactLinks}>
+          <div className={styles.contactItem}>
+            <MdEmail id={styles.mailIcon} />
+            <p className={styles.contactLabel}>tyates907@gmail.com</p>
+          </div>
           <a
             href="https://www.linkedin.com/in/tyler-yates/"
             className={styles.contactItem}
@@ -38,15 +42,18 @@ export default function Nav() {
             <SiLinkedin id={styles.liIcon} />
             <p className={styles.contactLabel}>LinkedIn: tyler-yates</p>
           </a>
-
           <a href="https://github.com/YTyler" className={styles.contactItem}>
             <SiGithub id={styles.gitIcon} />
             <p className={styles.contactLabel}>Github: YTyler</p>
           </a>
-          <div className={styles.contactItem}>
-            <MdEmail id={styles.mailIcon} />
-            <p className={styles.contactLabel}>tyates907@gmail.com</p>
-          </div>
+          <a
+            href="Yates - Resume.pdf"
+            target="_blank"
+            className={styles.contactItem}
+          >
+            <MdOutlineOpenInNew id={styles.gitIcon} />
+            <p className={styles.contactLabel}>My Resume</p>
+          </a>
         </div>
       </section>
       <section className={styles.subNav}>
@@ -78,12 +85,6 @@ export default function Nav() {
           </a>
         </div>
       </section>
-      <a href="Yates - Resume.pdf" target="_blank">
-        <section className={`${styles.subNav} ${styles.resume}`}>
-          <h3>My Resume</h3>
-          <MdOutlineOpenInNew className={styles.openIcon} />
-        </section>
-      </a>
     </nav>
   );
 }
