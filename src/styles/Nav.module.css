@@ -124,7 +124,20 @@
 }
 
 .resume {
-  color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+}
+
+.resume:hover {
+  background-color: rgba(187, 185, 185, 0.5);
+  box-shadow: black 0px 0px 5px;
+}
+
+.openIcon {
+  margin: auto 0em auto 0.5em;
+  font-size: 2rem;
 }
 
 @media (max-width: 1280px) {

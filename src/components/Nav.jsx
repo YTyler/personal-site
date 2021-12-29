@@ -1,5 +1,5 @@
 import React from "react";
-import { MdEmail } from "react-icons/md";
+import { MdEmail, MdOutlineOpenInNew } from "react-icons/md";
 import {
   SiLinkedin,
   SiGithub,
@@ -78,6 +78,12 @@ export default function Nav() {
           </a>
         </div>
       </section>
+      <a href="Yates - Resume.pdf" target="_blank">
+        <section className={`${styles.subNav} ${styles.resume}`}>
+          <h3>My Resume</h3>
+          <MdOutlineOpenInNew className={styles.openIcon} />
+        </section>
+      </a>
     </nav>
   );
 }
