@@ -7,14 +7,14 @@
   grid-template-columns: 1fr 1fr;
 }
 
-/* #projectTitle {
-  background: rgb(216, 219, 226);
+#projectTitle {
+  background: rgb(223, 223, 241);
   background: linear-gradient(
     126deg,
-    rgba(216, 219, 226, 1) 30%,
+    rgb(223, 223, 241) 20%,
     rgba(129, 83, 85, 1) 110%
   );
-} */
+}
 
 @media (max-width: 1280px) {
   .projects {
