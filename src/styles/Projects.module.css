@@ -1,7 +1,20 @@
+.projectsContainer {
+  flex-direction: column;
+}
+
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+/* #projectTitle {
+  background: rgb(216, 219, 226);
+  background: linear-gradient(
+    126deg,
+    rgba(216, 219, 226, 1) 30%,
+    rgba(129, 83, 85, 1) 110%
+  );
+} */
 
 @media (max-width: 1280px) {
   .projects {

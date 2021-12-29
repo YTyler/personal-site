@@ -7,6 +7,7 @@
   text-align: center;
   background-color: rgb(89, 91, 117);
   border-right: 2px solid rgb(46, 40, 42);
+  box-shadow: 3px 0px 12px rgb(89, 91, 117);
   height: 100vh;
 }
 

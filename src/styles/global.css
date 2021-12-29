@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  caret-color: transparent;
 }
 
 a:visited {
@@ -19,10 +20,19 @@ body {
 
 #root {
   display: flex;
-  background-color: rgb(216, 219, 226);
+  background-color: rgb(223, 223, 241);
 }
 
 .mainRow {
   display: flex;
   padding: 1em 0em 1em 0em;
+}
+
+.mainRow h1 {
+  font-size: 6.5rem;
+}
+
+.mainRow h2 {
+  font-size: 5rem;
+  padding-left: 0.5em;
 }

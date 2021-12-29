@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <article className={`mainRow ${styles.homeContainer}`}>
+    <section className={`mainRow ${styles.homeContainer}`}>
       <div className={styles.content}>
         <h1>Tyler Yates</h1>
         <h2>Web & Native Development</h2>
@@ -13,6 +13,6 @@ export default function Home() {
           naturally analytical mind in creative, new ways.
         </p>
       </div>
-    </article>
+    </section>
   );
 }
