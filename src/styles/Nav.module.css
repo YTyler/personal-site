@@ -50,7 +50,6 @@
 }
 .contactLinks a:active {
   background-color: rgb(160, 159, 209);
-  box-shadow: black 0px 0px 10px;
 }
 
 .contactItem {
@@ -123,18 +122,6 @@
   background-color: #1f2c37;
   padding: 3px;
   border-radius: 5px;
-}
-
-.resume {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  color: black;
-}
-
-.resume:hover {
-  background-color: rgba(160, 159, 209);
-  box-shadow: black 0px 0px 5px;
 }
 
 .openIcon {

@@ -48,8 +48,9 @@ export default function Nav() {
           </a>
           <a
             href="Yates - Resume.pdf"
-            target="_blank"
             className={styles.contactItem}
+            target="_blank"
+            rel="noreferrer"
           >
             <MdOutlineOpenInNew id={styles.gitIcon} />
             <p className={styles.contactLabel}>My Resume</p>
