@@ -5,22 +5,14 @@ export default function Home() {
   return (
     <article className={`mainRow ${styles.homeContainer}`}>
       <div className={styles.content}>
-        <h1>Title Here</h1>
+        <h1>Tyler Yates</h1>
+        <h2>Web & Native Development</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nostrum
-          dolorem nam architecto. Asperiores quis nobis labore eius? Aspernatur,
-          neque expedita. Corporis facere voluptatibus, suscipit quia velit quas
-          culpa expedita. Sit dicta ipsam, ratione accusamus assumenda aliquid
-          delectus repellendus? Necessitatibus ducimus optio officiis ullam
-          porro laudantium nam voluptates repudiandae labore suscipit
-          reprehenderit, non, praesentium, recusandae architecto illo. Dolorum,
-          ab quaerat. Dicta nobis rerum quis illum natus. Vitae aspernatur quasi
-          minima delectus dignissimos excepturi, consectetur facere laudantium
-          consequuntur! Accusamus unde vitae atque odit laborum, ab at fuga
-          voluptatum natus, quam non.
+          A diligent and inspired programmer coming from a diverse technical
+          background. Looking forward to working with a team and applying my
+          naturally analytical mind in creative, new ways.
         </p>
       </div>
-      <img className={styles.profilePic} src="/profile.jpg" alt="profile_pic" />
     </article>
   );
 }
