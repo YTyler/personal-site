@@ -32,7 +32,13 @@ body {
   font-size: 6.5rem;
 }
 
-.mainRow h2 {
+.mainRow .sectionHeader {
   font-size: 5rem;
   padding-left: 0.5em;
+  background: rgb(223, 223, 241);
+  background: linear-gradient(
+    126deg,
+    rgb(223, 223, 241) 50%,
+    rgba(129, 83, 85, 1) 110%
+  );
 }

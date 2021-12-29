@@ -5,7 +5,7 @@ import styles from "../styles/Projects.module.css";
 export default function Projects() {
   return (
     <section className={`mainRow ${styles.projectsContainer}`}>
-      <h2 id={styles.projectTitle}>Projects</h2>
+      <h2 className="sectionHeader">Projects</h2>
       <div className={styles.projects}>
         <ProjectCard
           url="/fm.jpg"

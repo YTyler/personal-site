@@ -7,15 +7,6 @@
   grid-template-columns: 1fr 1fr;
 }
 
-#projectTitle {
-  background: rgb(223, 223, 241);
-  background: linear-gradient(
-    126deg,
-    rgb(223, 223, 241) 20%,
-    rgba(129, 83, 85, 1) 110%
-  );
-}
-
 @media (max-width: 1280px) {
   .projects {
     grid-template-columns: 1fr;
