@@ -8,7 +8,7 @@ export default function Projects() {
       <h2 className="sectionHeader">Projects</h2>
       <div className={styles.projects}>
         <ProjectCard
-          url="/fm.jpg"
+          url="personal-site/fm.jpg"
           alttext="fighting mongooses"
           title="P3: Perfect Personnel Placement"
           repository="https://github.com/Perfect-Personnel-Placement/frontend"
@@ -22,7 +22,7 @@ export default function Projects() {
           pull requests from the other teams.
         </ProjectCard>
         <ProjectCard
-          url="splash.png"
+          url="personal-site/splash.png"
           alttext="pop"
           title="My Portfolio Site"
           repository="https://github.com/YTyler/personal-site"
@@ -35,8 +35,8 @@ export default function Projects() {
           features and design choices that I find. I hope you're enjoying your
           time here, and thanks for coming by!
         </ProjectCard>
-        <ProjectCard url="splash.png" alttext="pop" />
-        <ProjectCard url="/fm.jpg" alttext="fighting mongooses" />
+        <ProjectCard url="personal-site/splash.png" alttext="pop" />
+        <ProjectCard url="personal-site/fm.jpg" alttext="fighting mongooses" />
       </div>
     </section>
   );
