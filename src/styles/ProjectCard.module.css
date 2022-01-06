@@ -29,6 +29,7 @@
 .link {
   display: flex;
   margin: 1em -1em 0.25em;
+  justify-content: flex-end;
   color: white;
 }
 
