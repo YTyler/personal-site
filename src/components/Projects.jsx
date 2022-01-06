@@ -22,7 +22,7 @@ export default function Projects() {
           pull requests from the other teams.
         </ProjectCard>
         <ProjectCard
-          url="splash.png"
+          url="splash.PNG"
           alttext="pop"
           title="My Portfolio Site"
           repository="https://github.com/YTyler/personal-site"
@@ -35,7 +35,7 @@ export default function Projects() {
           features and design choices that I find. I hope you're enjoying your
           time here, and thanks for coming by!
         </ProjectCard>
-        <ProjectCard url="splash.png" alttext="pop" />
+        <ProjectCard url="splash.PNG" alttext="pop" />
         <ProjectCard url="fm.jpg" alttext="fighting mongooses" />
       </div>
     </section>
