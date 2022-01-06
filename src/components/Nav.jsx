@@ -20,7 +20,7 @@ export default function Nav() {
       <section>
         <img
           className={styles.profilePic}
-          src="personal-site/profile.jpg"
+          src="./personal-site/profile.jpg"
           alt="profile_pic"
         />
         <div className={styles.title}>
