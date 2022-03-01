@@ -1,14 +1,33 @@
 .navContainer {
   display: flex;
   position: sticky;
-  top: 0;
-  left: 0;
+  top: 0%;
+  left: 0%;
   flex-direction: column;
   text-align: center;
   background-color: rgb(89, 91, 117);
   border-right: 2px solid rgb(46, 40, 42);
   box-shadow: 3px 0px 12px rgb(89, 91, 117);
   height: 100vh;
+  z-index: 1;
+}
+
+#toggle {
+  display: none;
+  position: fixed;
+  cursor: pointer;
+  color: rgb(223, 223, 241);
+  font-size: 2rem;
+  background-color: rgba(64, 64, 68, 0.568);
+  border-radius: 0.2em;
+  margin-top: 10px;
+  margin-left: 20px;
+  left: 400px;
+  padding: 0.2em 1em;
+}
+
+#toggle:hover {
+  background-color: rgba(64, 64, 68, 0.671);
 }
 
 .profilePic {
@@ -129,8 +148,28 @@
   font-size: 2rem;
 }
 
-@media (max-width: 1280px) {
+@media screen and (max-width: 1412px) {
   .navContainer {
-    display: none;
+    position: fixed;
+    transition: 1s;
+  }
+  #toggle {
+    display: flex;
+  }
+
+  #navOpen {
+    transform: translateX(0%);
+  }
+
+  #navClosed {
+    transform: translateX(-100%);
+  }
+
+  #menuIcon {
+    transition: 1s;
+  }
+
+  #navClosed #menuIcon {
+    transform: rotate(-180deg);
   }
 }

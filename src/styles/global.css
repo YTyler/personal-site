@@ -23,6 +23,12 @@ body {
   background-color: rgb(223, 223, 241);
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+}
+
 .mainRow {
   display: flex;
   padding: 1em 0em 1em 0em;

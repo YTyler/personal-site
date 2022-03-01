@@ -1,5 +1,5 @@
-import React from "react";
-import { MdEmail, MdOutlineOpenInNew } from "react-icons/md";
+import { useState, useEffect } from "react";
+import { MdEmail, MdMenuOpen, MdOutlineOpenInNew } from "react-icons/md";
 import {
   SiLinkedin,
   SiGithub,
@@ -15,9 +15,17 @@ import {
 import styles from "../styles/Nav.module.css";
 
 export default function Nav() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <nav className={`row ${styles.navContainer}`}>
-      <section>
+    <nav
+      className={styles.navContainer}
+      id={isOpen ? styles.navOpen : styles.navClosed}
+    >
+      <div id={styles.toggle} onClick={() => setIsOpen((prev) => !prev)}>
+        <MdMenuOpen id={styles.menuIcon} />
+      </div>
+      <section className="top">
         <img
           className={styles.profilePic}
           src="profile.jpg"
