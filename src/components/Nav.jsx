@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { MdEmail, MdMenuOpen, MdOutlineOpenInNew } from "react-icons/md";
 import {
   SiLinkedin,
