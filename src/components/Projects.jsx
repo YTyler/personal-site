@@ -16,7 +16,7 @@ export default function Projects() {
           Serverless mobile app used to view client demands and batch output for
           the company. Designed for Revature Managers to place an order of
           associates to a demand from a client. I helped to build the AWS API,
-          Lambda handlers and the Relation Database to manipulate and store
+          Lambda handlers and the Relational Database to manipulate and store
           demand and batch information. I also filled the role of git master;
           managing branch security/access as well as reviewing and approving
           pull requests from the other teams.
