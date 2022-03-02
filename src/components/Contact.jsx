@@ -5,6 +5,7 @@ import { SiLinkedin, SiGithub } from "react-icons/si";
 export default function Contact() {
   return (
     <section className="mainRow" id={styles.contactContainer}>
+      <span id="contactScroller"></span>
       <h2 id={styles.contactHeader}>Contact</h2>
       <ul className={styles.contactLinks}>
         <li>

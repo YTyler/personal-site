@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 import { MdMenuOpen } from "react-icons/md";
 import styles from "../styles/Nav.module.css";
 
@@ -23,6 +24,23 @@ export default function Nav() {
           <h1>Tyler Yates</h1>
           <h2>Web & Native Development</h2>
         </div>
+        <ul>
+          <li>
+            <Link to="projectScroller" spy={true} smooth={true}>
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to="techScroller" spy={true} smooth={true}>
+              Technologies
+            </Link>
+          </li>
+          <li>
+            <Link to="contactScroller" spy={true} smooth={true}>
+              Contact
+            </Link>
+          </li>
+        </ul>
       </section>
     </nav>
   );

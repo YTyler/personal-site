@@ -6,7 +6,6 @@ import {
   SiRedux,
   SiAmazonaws,
   SiJest,
-  SiPostman,
   SiExpo,
   SiJava,
 } from "react-icons/si";
@@ -14,6 +13,7 @@ import {
 export default function Technologies() {
   return (
     <section className="mainRow">
+      <span id="techScroller"></span>
       <h2 className="sectionHeader">Technologies</h2>
       <ul className={styles.techIcons}>
         <li className={styles.icon}>
