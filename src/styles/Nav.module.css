@@ -20,9 +20,9 @@
   font-size: 2rem;
   background-color: rgba(64, 64, 68, 0.568);
   border-radius: 0.2em;
-  margin-top: 10px;
-  margin-left: 20px;
-  left: 400px;
+  margin-top: 0.5em;
+  margin-left: 0.75em;
+  left: 14.25em;
   padding: 0.2em 1em;
 }
 
@@ -35,7 +35,8 @@
   border: 1px solid rgb(195, 195, 195);
   border-radius: 2.5%;
   margin-top: 2em;
-  max-height: 18em;
+  max-width: 65%;
+  height: auto;
 }
 
 .title {
@@ -55,97 +56,6 @@
   margin: 0.5em;
   border-radius: 20px;
   padding: 0.5em 0.75em 0.75em;
-}
-
-.contactLinks {
-  margin-top: 0.3em;
-  font-size: 2.5rem;
-}
-
-.contactLinks a:hover {
-  border-radius: 50px;
-  background-color: rgba(160, 159, 209, 0.5);
-  box-shadow: black 0px 1px 2px;
-}
-.contactLinks a:active {
-  background-color: rgb(160, 159, 209);
-}
-
-.contactItem {
-  display: flex;
-  padding: 0.5rem 1.5rem;
-}
-
-.contactLabel {
-  font-size: 1.5rem;
-  margin: auto 0;
-  margin-left: 1em;
-}
-
-#liIcon {
-  color: #095cae;
-}
-
-#gitIcon {
-  color: #14181f;
-}
-
-#mailIcon {
-  color: #14181f;
-}
-
-.techIcons {
-  display: grid;
-  margin-top: 5%;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 0.5em;
-  justify-items: center;
-  font-size: 2.5rem;
-}
-
-#jsIcon {
-  color: #d8c547;
-  background-color: #2d2e2b;
-}
-
-#tsIcon {
-  color: #0068ad;
-  background-color: #f5f5f5;
-}
-
-#jestIcon {
-  color: #b23712;
-}
-
-#reactIcon {
-  color: #00c3e5;
-  background-color: #191919;
-  border-radius: 50%;
-  padding: 3px;
-}
-
-#reduxIcon {
-  color: #6a45aa;
-}
-
-#postmanIcon {
-  color: #e56131;
-}
-
-#exIcon {
-  color: #14181f;
-}
-
-#awsIcon {
-  color: #da8900;
-  background-color: #1f2c37;
-  padding: 3px;
-  border-radius: 5px;
-}
-
-.openIcon {
-  margin: auto 0em auto 0.5em;
-  font-size: 2rem;
 }
 
 @media screen and (max-width: 1412px) {

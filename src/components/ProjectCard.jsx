@@ -6,7 +6,7 @@ export default function ProjectCard(props) {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.titleSection}>
-        <img src={props.url} alt={props.alttext} />
+        <img className={styles.image} src={props.url} alt={props.alttext} />
         <h3 className={styles.title}>{props.title}</h3>
       </div>
       <div className={styles.content}>

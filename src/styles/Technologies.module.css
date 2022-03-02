@@ -1,0 +1,66 @@
+.techIcons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 5rem;
+  margin-top: 0.3em;
+  row-gap: 0.5em;
+  text-align: center;
+  list-style-type: none;
+}
+
+.icon {
+  padding: 0.2em 0.5em;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.icon:hover {
+  background-color: rgba(176, 176, 192, 0.253);
+}
+.iconLabel {
+  color: #202020;
+  font-size: 1.5rem;
+}
+
+#jsIcon {
+  color: #d8c547;
+  background-color: #2d2e2b;
+}
+
+#tsIcon {
+  color: #0068ad;
+  background-color: #f5f5f5;
+}
+
+#jestIcon {
+  color: #b23712;
+}
+
+#reactIcon {
+  color: #00c3e5;
+  background-color: #3a3a3a;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+#reduxIcon {
+  color: #6a45aa;
+}
+
+#javaIcon {
+  color: #f5f5f5;
+  background-color: #b21212;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#exIcon {
+  color: #14181f;
+}
+
+#awsIcon {
+  color: #da8900;
+  background-color: #1f2c37;
+  border-radius: 5px;
+  padding: 3px;
+}

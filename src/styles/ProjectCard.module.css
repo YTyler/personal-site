@@ -1,9 +1,6 @@
 .cardContainer {
   background-color: rgb(188, 189, 218);
-  /* color: whitesmoke; */
-
   border-radius: 20px;
-  /* box-shadow: inset 2px -3px 3px grey; */
   margin: 1em;
   padding: 1em;
 }
@@ -15,12 +12,20 @@
   text-align: center;
 }
 
+.image {
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 2.5%;
+  max-width: 100%;
+  height: auto;
+}
+
 .title {
   font-size: 2em;
-  margin: auto;
+  margin: auto 0;
 }
 
 .content {
+  display: flex;
   margin: 0.5em 2em 0em 2em;
   text-indent: 1em;
   line-height: 1.5;

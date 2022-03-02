@@ -21,16 +21,13 @@ body {
 #root {
   display: flex;
   background-color: rgb(223, 223, 241);
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  z-index: 0;
+  color: #202020;
 }
 
 .mainRow {
   display: flex;
+  flex-direction: column;
+  min-height: 35vh;
   padding: 1em 0em 1em 0em;
 }
 
@@ -39,12 +36,21 @@ main {
 }
 
 .mainRow .sectionHeader {
+  color: #202020;
   font-size: 5rem;
   padding-left: 0.5em;
+  padding-bottom: 0.2em;
   background: rgb(223, 223, 241);
   background: linear-gradient(
     126deg,
     rgb(223, 223, 241) 50%,
     rgba(129, 83, 85, 1) 110%
   );
+  /* border: 1px solid rgba(129, 83, 85, 0.746); */
 }
+
+/* @media (max-width: 700px) {
+  * {
+    font-size: 50%;
+  }
+} */

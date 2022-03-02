@@ -1,0 +1,58 @@
+#contactContainer {
+  background-color: rgb(207, 207, 224);
+  text-align: center;
+  align-items: center;
+  border-radius: 8% 8% 0px 0px;
+  padding-bottom: 2em;
+  min-height: 20vh;
+}
+
+#contactHeader {
+  color: rgba(35, 37, 39, 0.635);
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.contactLinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0.5em;
+  column-gap: 2em;
+  margin-top: 1em;
+  font-size: 2rem;
+  list-style: none;
+}
+
+.contactLinks a:hover {
+  border-radius: 5px;
+  background-color: rgba(160, 159, 209, 0.5);
+  box-shadow: black 0px 1px 2px;
+}
+.contactLinks a:active {
+  background-color: rgb(160, 159, 209);
+}
+
+.contactItem {
+  display: flex;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+}
+
+.contactLabel {
+  font-size: 1.25rem;
+  margin-left: 1em;
+  align-self: center;
+  color: #202020;
+}
+
+#liIcon {
+  color: #095cae;
+  background-color: #f5f5f5;
+}
+
+#gitIcon {
+  color: #14181f;
+}
+
+#mailIcon {
+  color: #14181f;
+}

@@ -1,8 +1,8 @@
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
-import Education from "./components/Education";
-import Experience from "./components/Experience";
+import Technologies from "./components/Technologies";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -11,8 +11,8 @@ export default function App() {
       <main>
         <Home />
         <Projects />
-        <Education />
-        <Experience />
+        <Technologies />
+        <Contact />
       </main>
     </>
   );
