@@ -1,7 +1,11 @@
+#techContainer {
+  font-size: 1rem;
+}
+
 .techIcons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  font-size: 5rem;
+  font-size: 5em;
   margin-top: 0.3em;
   row-gap: 0.5em;
   text-align: center;
@@ -19,7 +23,7 @@
 }
 .iconLabel {
   color: #202020;
-  font-size: 1.5rem;
+  font-size: 0.3em;
 }
 
 #jsIcon {

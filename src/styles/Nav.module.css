@@ -1,29 +1,31 @@
 .navContainer {
-  display: flex;
   position: sticky;
-  top: 0%;
+  top: 0vh;
   left: 0%;
+  height: 100vh;
+  min-width: 20%;
+  z-index: 0;
+  display: flex;
   flex-direction: column;
   text-align: center;
   background-color: rgb(89, 91, 117);
   border-right: 2px solid rgb(46, 40, 42);
   box-shadow: 3px 0px 12px rgb(89, 91, 117);
-  height: 100vh;
-  z-index: 1;
+  font-size: 1rem;
 }
 
 #toggle {
+  position: absolute;
+  left: max(100px, 20vw);
   display: none;
-  position: fixed;
-  cursor: pointer;
-  color: rgb(223, 223, 241);
-  font-size: 2rem;
-  background-color: rgba(64, 64, 68, 0.568);
   border-radius: 0.2em;
   margin-top: 0.5em;
   margin-left: 0.75em;
-  left: 14.25em;
   padding: 0.2em 1em;
+  color: rgb(223, 223, 241);
+  background-color: rgba(64, 64, 68, 0.568);
+  font-size: 2em;
+  cursor: pointer;
 }
 
 #toggle:hover {
@@ -40,7 +42,7 @@
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   color: white;
   padding: 0.5em 0em 0.25em;
 }
@@ -51,16 +53,18 @@
 }
 
 .subNav {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   background-color: rgb(255, 255, 255);
   margin: 0.5em;
   border-radius: 20px;
   padding: 0.5em 0.75em 0.75em;
 }
 
-@media screen and (max-width: 1412px) {
+@media screen and (max-width: 1216px) {
   .navContainer {
     position: fixed;
+    width: 20vw;
+    min-width: 100px;
     transition: 1s;
   }
   #toggle {

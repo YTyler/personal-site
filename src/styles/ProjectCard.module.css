@@ -3,6 +3,7 @@
   border-radius: 20px;
   margin: 1em;
   padding: 1em;
+  font-size: 1rem;
 }
 
 .titleSection {
@@ -16,7 +17,6 @@
   border: 1px solid rgb(195, 195, 195);
   border-radius: 2.5%;
   max-width: 100%;
-  height: auto;
 }
 
 .title {

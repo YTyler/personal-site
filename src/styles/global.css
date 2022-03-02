@@ -6,8 +6,8 @@
   caret-color: transparent;
 }
 
-a:visited {
-  color: inherit;
+html {
+  font-size: 16px;
 }
 
 body {
@@ -16,6 +16,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a:visited {
+  color: inherit;
 }
 
 #root {
@@ -27,12 +31,7 @@ body {
 .mainRow {
   display: flex;
   flex-direction: column;
-  min-height: 35vh;
   padding: 1em 0em 1em 0em;
-}
-
-.mainRow h1 {
-  font-size: 6.5rem;
 }
 
 .mainRow .sectionHeader {
@@ -49,8 +48,26 @@ body {
   /* border: 1px solid rgba(129, 83, 85, 0.746); */
 }
 
-/* @media (max-width: 700px) {
-  * {
-    font-size: 50%;
+@media (max-width: 1216px) {
+  html {
+    font-size: 14px;
   }
-} */
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 8px;
+  }
+}

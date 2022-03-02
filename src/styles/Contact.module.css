@@ -4,13 +4,12 @@
   align-items: center;
   margin-top: 2em;
   border-radius: 8% 8% 0px 0px;
-  padding-bottom: 2em;
-  min-height: 20vh;
+  padding-bottom: 3em;
+  font-size: 2rem;
 }
 
 #contactHeader {
   color: rgba(35, 37, 39, 0.635);
-  font-size: 2rem;
   text-decoration: underline;
 }
 .contactLinks {
@@ -19,7 +18,6 @@
   row-gap: 0.5em;
   column-gap: 2em;
   margin-top: 1em;
-  font-size: 2rem;
   list-style: none;
 }
 
@@ -34,12 +32,12 @@
 
 .contactItem {
   display: flex;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5em 1.5em;
   text-align: center;
 }
 
 .contactLabel {
-  font-size: 1.25rem;
+  font-size: 0.66em;
   margin-left: 1em;
   align-self: center;
   color: #202020;

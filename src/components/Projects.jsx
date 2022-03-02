@@ -36,8 +36,6 @@ export default function Projects() {
           features and design choices that I find. I hope you're enjoying your
           time here, and thanks for coming by!
         </ProjectCard>
-        <ProjectCard url="splash.PNG" alttext="pop" />
-        <ProjectCard url="fm.jpg" alttext="fighting mongooses" />
       </div>
     </section>
   );

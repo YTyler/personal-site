@@ -12,7 +12,7 @@ import {
 
 export default function Technologies() {
   return (
-    <section className="mainRow">
+    <section className="mainRow" id={styles.techContainer}>
       <span id="techScroller"></span>
       <h2 className="sectionHeader">Technologies</h2>
       <ul className={styles.techIcons}>
