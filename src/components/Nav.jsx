@@ -20,22 +20,24 @@ export default function Nav() {
           src="profile.jpg"
           alt="profile_pic"
         />
-        <div className={styles.title}>
-          <h1>Tyler Yates</h1>
-          <h2>Web & Native Development</h2>
-        </div>
-        <ul>
-          <li>
+        <h1 className={styles.title}>Tyler Yates</h1>
+        <ul className={styles.subNav}>
+          <li className={styles.scrollLink}>
+            <Link to="homeScroller" spy={true} smooth={true} offset={-100}>
+              Home
+            </Link>
+          </li>
+          <li className={styles.scrollLink}>
             <Link to="projectScroller" spy={true} smooth={true}>
               Projects
             </Link>
           </li>
-          <li>
+          <li className={styles.scrollLink}>
             <Link to="techScroller" spy={true} smooth={true}>
-              Technologies
+              Technology
             </Link>
           </li>
-          <li>
+          <li className={styles.scrollLink}>
             <Link to="contactScroller" spy={true} smooth={true}>
               Contact
             </Link>

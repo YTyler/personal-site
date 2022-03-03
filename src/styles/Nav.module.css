@@ -44,12 +44,7 @@
 .title {
   font-size: 2.5em;
   color: white;
-  padding: 0.5em 0em 0.25em;
-}
-
-.title h2 {
-  font-size: 0.7em;
-  padding: 0.25em 0em;
+  padding: 0.25em 0em 0.25em;
 }
 
 .subNav {
@@ -58,6 +53,11 @@
   margin: 0.5em;
   border-radius: 20px;
   padding: 0.5em 0.75em 0.75em;
+  list-style: none;
+}
+
+.scrollLink {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1216px) {
@@ -65,8 +65,9 @@
     position: fixed;
     width: 20vw;
     min-width: 100px;
-    transition: 1s;
+    transition: transform 1s;
   }
+
   #toggle {
     display: flex;
   }
@@ -80,7 +81,7 @@
   }
 
   #menuIcon {
-    transition: 1s;
+    transition: transform 1s;
   }
 
   #navClosed #menuIcon {
