@@ -43,15 +43,11 @@
   color: #202020;
 }
 
+.darkIcon {
+  color: #14181f;
+}
+
 #liIcon {
   color: #095cae;
   background-color: #f5f5f5;
-}
-
-#gitIcon {
-  color: #14181f;
-}
-
-#mailIcon {
-  color: #14181f;
 }
