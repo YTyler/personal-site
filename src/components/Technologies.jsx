@@ -12,56 +12,56 @@ import {
 
 export default function Technologies() {
   return (
-    <section className="mainRow" id={styles.techContainer}>
+    <section className="mainRow" id={styles.container}>
       <span id="techScroller"></span>
       <h2 className="sectionHeader">Technologies</h2>
       <ul className={styles.techIcons}>
         <li className={styles.icon}>
           <a href="https://www.javascript.com/" title="javascript.com">
             <SiJavascript id={styles.jsIcon} />
-            <p className={styles.iconLabel}>Javascript</p>
+            <p className={styles.label}>Javascript</p>
           </a>
         </li>
         <li className={styles.icon}>
           <a href="https://www.typescriptlang.org/" title="typescript home">
             <SiTypescript id={styles.tsIcon} />
-            <p className={styles.iconLabel}>TypeScript</p>
+            <p className={styles.label}>TypeScript</p>
           </a>
         </li>
         <li className={styles.icon}>
           <a href="https://jestjs.io/" title="jest home">
             <SiJest id={styles.jestIcon} />
-            <p className={styles.iconLabel}>Jest</p>
+            <p className={styles.label}>Jest</p>
           </a>
         </li>
         <li className={styles.icon}>
           <a href="https://reactjs.org/" title="react home">
             <SiReact id={styles.reactIcon} />
-            <p className={styles.iconLabel}>React</p>
+            <p className={styles.label}>React</p>
           </a>
         </li>
         <li className={styles.icon}>
           <a href="https://redux.js.org/" title="redux home">
             <SiRedux id={styles.reduxIcon} />
-            <p className={styles.iconLabel}>Redux</p>
+            <p className={styles.label}>Redux</p>
           </a>
         </li>
         <li className={styles.icon}>
           <a href="https://expo.dev/" title="expo home">
             <SiExpo id={styles.exIcon} />
-            <p className={styles.iconLabel}>Expo</p>
+            <p className={styles.label}>Expo</p>
           </a>
         </li>
         <li className={styles.icon}>
           <a href="https://dev.java/" title="java for developers">
             <SiJava id={styles.javaIcon} />
-            <p className={styles.iconLabel}>Java</p>
+            <p className={styles.label}>Java</p>
           </a>
         </li>
         <li className={styles.icon}>
           <a href="https://aws.amazon.com/">
             <SiAmazonaws id={styles.awsIcon} />
-            <p className={styles.iconLabel}>Amazon</p>
+            <p className={styles.label}>Amazon</p>
           </a>
         </li>
       </ul>

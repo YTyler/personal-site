@@ -1,4 +1,4 @@
-#contactContainer {
+#container {
   background-color: rgb(207, 207, 224);
   text-align: center;
   align-items: center;
@@ -8,11 +8,11 @@
   font-size: 2rem;
 }
 
-#contactHeader {
+#header {
   color: rgba(35, 37, 39, 0.635);
   text-decoration: underline;
 }
-.contactLinks {
+.links {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 0.5em;
@@ -21,22 +21,22 @@
   list-style: none;
 }
 
-.contactLinks a:hover {
+.links a:hover {
   border-radius: 5px;
   background-color: rgba(160, 159, 209, 0.5);
   box-shadow: black 0px 1px 2px;
 }
-.contactLinks a:active {
+.links a:active {
   background-color: rgb(160, 159, 209);
 }
 
-.contactItem {
+.item {
   display: flex;
   padding: 0.5em 1.5em;
   text-align: center;
 }
 
-.contactLabel {
+.label {
   font-size: 0.66em;
   margin-left: 1em;
   align-self: center;

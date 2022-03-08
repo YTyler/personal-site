@@ -4,7 +4,7 @@ import styles from "../styles/Projects.module.css";
 
 export default function Projects() {
   return (
-    <section className={`mainRow ${styles.projectsContainer}`}>
+    <section className={`mainRow`}>
       <span id="projectScroller"></span>
       <h2 className="sectionHeader">Projects</h2>
       <div className={styles.projects}>

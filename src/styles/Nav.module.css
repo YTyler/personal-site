@@ -1,4 +1,4 @@
-.navContainer {
+.container {
   position: sticky;
   top: 0vh;
   left: 0%;
@@ -32,7 +32,7 @@
   background-color: rgba(64, 64, 68, 0.671);
 }
 
-.profilePic {
+.image {
   margin: auto;
   border: 1px solid rgb(195, 195, 195);
   border-radius: 2.5%;
@@ -47,7 +47,7 @@
   padding: 0.25em 0em 0.25em;
 }
 
-.subNav {
+.navList {
   font-size: 1.5em;
   background-color: rgb(255, 255, 255);
   margin: 0.5em;
@@ -61,7 +61,7 @@
 }
 
 @media screen and (max-width: 1216px) {
-  .navContainer {
+  .container {
     position: fixed;
     width: 20vw;
     min-width: 100px;
@@ -72,11 +72,11 @@
     display: flex;
   }
 
-  #navOpen {
+  #open {
     transform: translateX(0%);
   }
 
-  #navClosed {
+  #closed {
     transform: translateX(-100%);
   }
 
@@ -84,7 +84,7 @@
     transition: transform 1s;
   }
 
-  #navClosed #menuIcon {
+  #closed #menuIcon {
     transform: rotate(-180deg);
   }
 }

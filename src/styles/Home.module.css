@@ -1,4 +1,4 @@
-#homeContainer {
+#container {
   flex-direction: row;
   justify-content: end;
   background: rgb(160, 159, 209);
@@ -6,7 +6,7 @@
   font-size: 1rem;
 }
 
-#homeContainer h1 {
+#container h1 {
   font-size: 6.5em;
 }
 

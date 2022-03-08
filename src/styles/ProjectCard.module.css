@@ -1,4 +1,4 @@
-.cardContainer {
+.container {
   background-color: rgb(188, 189, 218);
   border-radius: 20px;
   margin: 1em;
@@ -31,13 +31,13 @@
   line-height: 1.5;
 }
 
-.link {
+.linkSection {
   display: flex;
   margin: 1em -1em 0.25em;
   justify-content: flex-end;
 }
 
-.link a {
+.linkSection a {
   color: white;
 }
 

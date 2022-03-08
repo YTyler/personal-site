@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <section className="mainRow" id={styles.homeContainer}>
+    <section className="mainRow" id={styles.container}>
       <span id="homeScroller"></span>
       <div className={styles.content}>
         <h1>Tyler Yates</h1>

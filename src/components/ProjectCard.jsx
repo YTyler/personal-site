@@ -4,7 +4,7 @@ import { MdOutlineOpenInNew } from "react-icons/md";
 
 export default function ProjectCard(props) {
   return (
-    <div className={styles.cardContainer}>
+    <div className={styles.container}>
       <div className={styles.titleSection}>
         <img className={styles.image} src={props.url} alt={props.alttext} />
         <h3 className={styles.title}>{props.title}</h3>
@@ -12,7 +12,7 @@ export default function ProjectCard(props) {
       <div className={styles.content}>
         <p>{props.children}</p>
       </div>
-      <div className={styles.link}>
+      <div className={styles.linkSection}>
         <a href={props.repository} target="_blank" rel="noreferrer">
           <p className={styles.linkText}>
             Go to Repository

@@ -7,21 +7,14 @@ export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav
-      className={styles.navContainer}
-      id={isOpen ? styles.navOpen : styles.navClosed}
-    >
+    <nav className={styles.container} id={isOpen ? styles.open : styles.closed}>
       <div id={styles.toggle} onClick={() => setIsOpen((prev) => !prev)}>
         <MdMenuOpen id={styles.menuIcon} />
       </div>
       <section className="top">
-        <img
-          className={styles.profilePic}
-          src="profile.jpg"
-          alt="profile_pic"
-        />
+        <img className={styles.image} src="profile.jpg" alt="profile_pic" />
         <h1 className={styles.title}>Tyler Yates</h1>
-        <ul className={styles.subNav}>
+        <ul className={styles.navList}>
           <li className={styles.scrollLink}>
             <Link to="homeScroller" spy={true} smooth={true} offset={-100}>
               Home

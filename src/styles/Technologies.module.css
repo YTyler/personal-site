@@ -1,4 +1,4 @@
-#techContainer {
+#container {
   font-size: 1rem;
 }
 
@@ -21,7 +21,7 @@
 .icon:hover {
   background-color: rgba(176, 176, 192, 0.253);
 }
-.iconLabel {
+.label {
   color: #202020;
   font-size: 0.3em;
 }

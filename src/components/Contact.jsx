@@ -4,50 +4,50 @@ import { SiLinkedin, SiGithub } from "react-icons/si";
 
 export default function Contact() {
   return (
-    <section className="mainRow" id={styles.contactContainer}>
+    <section className="mainRow" id={styles.container}>
       <span id="contactScroller"></span>
-      <h2 id={styles.contactHeader}>Contact</h2>
-      <ul className={styles.contactLinks}>
+      <h2 id={styles.header}>Contact</h2>
+      <ul className={styles.links}>
         <li>
           <a
             href="mailto:tyates907@gmail.com"
-            className={styles.contactItem}
+            className={styles.item}
             title="Send me an email!"
           >
             <MdEmail class={styles.darkIcon} />
-            <p className={styles.contactLabel}>tyates907@gmail.com</p>
+            <p className={styles.label}>tyates907@gmail.com</p>
           </a>
         </li>
         <li>
           <a
             href="https://www.linkedin.com/in/tyler-yates/"
-            className={styles.contactItem}
+            className={styles.item}
             title="linkedin.com/in/tyler-yates"
           >
             <SiLinkedin id={styles.liIcon} />
-            <p className={styles.contactLabel}>LinkedIn Profile</p>
+            <p className={styles.label}>LinkedIn Profile</p>
           </a>
         </li>
         <li>
           <a
             href="https://github.com/YTyler"
-            className={styles.contactItem}
+            className={styles.item}
             title="github.com/YTyler"
           >
             <SiGithub class={styles.darkIcon} />
-            <p className={styles.contactLabel}>My Github</p>
+            <p className={styles.label}>My Github</p>
           </a>
         </li>
         <li>
           <a
             href="Yates-Resume.pdf"
-            className={styles.contactItem}
+            className={styles.item}
             target="_blank"
             rel="noreferrer"
             title="Yates-Resume.pdf"
           >
             <MdOutlineOpenInNew class={styles.darkIcon} />
-            <p className={styles.contactLabel}>My Resume</p>
+            <p className={styles.label}>My Resume</p>
           </a>
         </li>
       </ul>
