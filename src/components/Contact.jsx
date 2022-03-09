@@ -14,7 +14,7 @@ export default function Contact() {
             className={styles.item}
             title="Send me an email!"
           >
-            <MdEmail class={styles.darkIcon} />
+            <MdEmail className={styles.darkIcon} />
             <p className={styles.label}>tyates907@gmail.com</p>
           </a>
         </li>
@@ -34,7 +34,7 @@ export default function Contact() {
             className={styles.item}
             title="github.com/YTyler"
           >
-            <SiGithub class={styles.darkIcon} />
+            <SiGithub className={styles.darkIcon} />
             <p className={styles.label}>My Github</p>
           </a>
         </li>
@@ -46,7 +46,7 @@ export default function Contact() {
             rel="noreferrer"
             title="Yates-Resume.pdf"
           >
-            <MdOutlineOpenInNew class={styles.darkIcon} />
+            <MdOutlineOpenInNew className={styles.darkIcon} />
             <p className={styles.label}>My Resume</p>
           </a>
         </li>
