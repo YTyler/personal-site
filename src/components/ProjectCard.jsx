@@ -9,9 +9,7 @@ export default function ProjectCard(props) {
         <img className={styles.image} src={props.url} alt={props.alttext} />
         <h3 className={styles.title}>{props.title}</h3>
       </div>
-      <div className={styles.content}>
-        <p>{props.children}</p>
-      </div>
+      <div className={styles.content}>{props.children}</div>
       <div className={styles.linkSection}>
         <a href={props.repository} target="_blank" rel="noreferrer">
           <p className={styles.linkText}>

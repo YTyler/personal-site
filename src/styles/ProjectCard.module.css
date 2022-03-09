@@ -7,9 +7,9 @@
 }
 
 .titleSection {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 1em 0em 1em 0em;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 1em 3em;
   text-align: center;
 }
 
@@ -17,10 +17,13 @@
   border: 1px solid rgb(195, 195, 195);
   border-radius: 2.5%;
   max-width: 100%;
+  width: 80%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 .title {
-  font-size: 2em;
+  font-size: 3em;
   margin: auto 0;
 }
 
