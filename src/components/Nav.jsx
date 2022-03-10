@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
-import { MdMenuOpen } from "react-icons/md";
+import { MdMenuOpen, MdArrowForwardIos } from "react-icons/md";
 import styles from "../styles/Nav.module.css";
 
 export default function Nav() {
@@ -11,30 +11,46 @@ export default function Nav() {
       <div id={styles.toggle} onClick={() => setIsOpen((prev) => !prev)}>
         <MdMenuOpen id={styles.menuIcon} />
       </div>
-      <section className="top">
+      <section id={styles.content}>
         <img className={styles.image} src="profile.jpg" alt="profile_pic" />
         <h1 className={styles.title}>Tyler Yates</h1>
         <ul className={styles.navList}>
-          <li className={styles.scrollLink}>
-            <Link to="homeScroller" spy={true} smooth={true} offset={-100}>
-              Home
-            </Link>
-          </li>
-          <li className={styles.scrollLink}>
-            <Link to="projectScroller" spy={true} smooth={true}>
-              Projects
-            </Link>
-          </li>
-          <li className={styles.scrollLink}>
-            <Link to="techScroller" spy={true} smooth={true}>
-              Technology
-            </Link>
-          </li>
-          <li className={styles.scrollLink}>
-            <Link to="contactScroller" spy={true} smooth={true}>
-              Contact
-            </Link>
-          </li>
+          <Link to="homeScroller" spy={true} smooth={true} offset={-100}>
+            <li
+              className={`${styles.scrollLink} selectable`}
+              onClick={() => setIsOpen(false)}
+            >
+              <p>Home</p>
+              <MdArrowForwardIos className={styles.arrow} />
+            </li>
+          </Link>
+          <Link to="projectScroller" spy={true} smooth={true}>
+            <li
+              className={`${styles.scrollLink} selectable`}
+              onClick={() => setIsOpen(false)}
+            >
+              <p>Projects</p>
+              <MdArrowForwardIos className={styles.arrow} />
+            </li>
+          </Link>
+          <Link to="techScroller" spy={true} smooth={true}>
+            <li
+              className={`${styles.scrollLink} selectable`}
+              onClick={() => setIsOpen(false)}
+            >
+              <p>Technologies</p>
+              <MdArrowForwardIos className={styles.arrow} />
+            </li>
+          </Link>
+          <Link to="contactScroller" spy={true} smooth={true}>
+            <li
+              className={`${styles.scrollLink} selectable`}
+              onClick={() => setIsOpen(false)}
+            >
+              <p>Contact</p>
+              <MdArrowForwardIos className={styles.arrow} />
+            </li>
+          </Link>
         </ul>
       </section>
     </nav>

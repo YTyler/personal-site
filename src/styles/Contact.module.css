@@ -21,19 +21,10 @@
   list-style: none;
 }
 
-.links a:hover {
-  border-radius: 5px;
-  background-color: rgba(160, 159, 209, 0.5);
-  box-shadow: black 0px 1px 2px;
-}
-.links a:active {
-  background-color: rgb(160, 159, 209);
-}
-
 .item {
   display: flex;
+  border-radius: 5px;
   padding: 0.5em 1.5em;
-  text-align: center;
 }
 
 .label {

@@ -11,7 +11,7 @@ export default function Contact() {
         <li>
           <a
             href="mailto:tyates907@gmail.com"
-            className={styles.item}
+            className={`${styles.item} selectable`}
             title="Send me an email!"
           >
             <MdEmail className={styles.darkIcon} />
@@ -21,7 +21,7 @@ export default function Contact() {
         <li>
           <a
             href="https://www.linkedin.com/in/tyler-yates/"
-            className={styles.item}
+            className={`${styles.item} selectable`}
             title="linkedin.com/in/tyler-yates"
           >
             <SiLinkedin id={styles.liIcon} />
@@ -31,7 +31,7 @@ export default function Contact() {
         <li>
           <a
             href="https://github.com/YTyler"
-            className={styles.item}
+            className={`${styles.item} selectable`}
             title="github.com/YTyler"
           >
             <SiGithub className={styles.darkIcon} />
@@ -41,7 +41,7 @@ export default function Contact() {
         <li>
           <a
             href="Yates-Resume.pdf"
-            className={styles.item}
+            className={`${styles.item} selectable`}
             target="_blank"
             rel="noreferrer"
             title="Yates-Resume.pdf"

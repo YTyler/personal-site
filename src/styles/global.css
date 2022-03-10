@@ -48,6 +48,15 @@ a:visited {
   /* border: 1px solid rgba(129, 83, 85, 0.746); */
 }
 
+.selectable:hover {
+  background-color: rgb(160, 159, 209, 0.5);
+  box-shadow: black 0px 1px 3px;
+}
+
+.selectable:active {
+  background-color: rgb(160, 159, 209);
+}
+
 @media (max-width: 1216px) {
   html {
     font-size: 14px;
