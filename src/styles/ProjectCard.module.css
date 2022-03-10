@@ -23,13 +23,13 @@
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 4rem;
   margin: auto 0;
 }
 
 .content {
   display: flex;
-  margin: 0.5em 2em 0em 2em;
+  margin: 1em 2em 0em 2em;
   text-indent: 1em;
   line-height: 1.5;
   font-size: 1.5rem;
