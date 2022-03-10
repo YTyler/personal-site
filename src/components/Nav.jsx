@@ -24,7 +24,7 @@ export default function Nav() {
               <MdArrowForwardIos className={styles.arrow} />
             </li>
           </Link>
-          <Link to="projectScroller" spy={true} smooth={true}>
+          <Link to="projectScroller" spy={true} smooth={true} offset={-5}>
             <li
               className={`${styles.scrollLink} selectable`}
               onClick={() => setIsOpen(false)}
@@ -33,7 +33,7 @@ export default function Nav() {
               <MdArrowForwardIos className={styles.arrow} />
             </li>
           </Link>
-          <Link to="techScroller" spy={true} smooth={true}>
+          <Link to="techScroller" spy={true} smooth={true} offset={-25}>
             <li
               className={`${styles.scrollLink} selectable`}
               onClick={() => setIsOpen(false)}
@@ -42,7 +42,7 @@ export default function Nav() {
               <MdArrowForwardIos className={styles.arrow} />
             </li>
           </Link>
-          <Link to="contactScroller" spy={true} smooth={true}>
+          <Link to="contactScroller" spy={true} smooth={true} offset={-25}>
             <li
               className={`${styles.scrollLink} selectable`}
               onClick={() => setIsOpen(false)}

@@ -1,13 +1,12 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import styles from "../styles/Projects.module.css";
 
 export default function Projects() {
   return (
     <section className={`mainRow`}>
       <span id="projectScroller"></span>
       <h2 className="sectionHeader">Projects</h2>
-      <div className={styles.projects}>
+      <div>
         <ProjectCard
           url="fm.jpg"
           alttext="fighting mongooses"

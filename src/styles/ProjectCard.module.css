@@ -3,7 +3,6 @@
   border-radius: 20px;
   margin: 1em;
   padding: 1em;
-  font-size: 1rem;
 }
 
 .titleSection {
@@ -24,7 +23,7 @@
 }
 
 .title {
-  font-size: 3em;
+  font-size: 3rem;
   margin: auto 0;
 }
 
@@ -33,15 +32,13 @@
   margin: 0.5em 2em 0em 2em;
   text-indent: 1em;
   line-height: 1.5;
+  font-size: 1.5rem;
 }
 
 .linkSection {
   display: flex;
   margin: 1em -1em 0.25em;
   justify-content: flex-end;
-}
-
-.linkSection a {
   color: white;
 }
 
