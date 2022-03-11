@@ -1,17 +1,17 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-scroll";
 import { MdMenuOpen, MdArrowForwardIos } from "react-icons/md";
 import styles from "../styles/Nav.module.css";
 
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
-  const [titleDisplay, setTitleDisplay] = useState({});
+  const [display, setDisplay] = useState(false);
 
   window.onscroll = () => {
     if (window.scrollY > window.innerHeight) {
-      setTitleDisplay({ display: "inherit" });
+      setDisplay(true);
     } else {
-      setTitleDisplay({ display: "none" });
+      setDisplay(false);
     }
   };
 
@@ -21,17 +21,20 @@ export default function Nav() {
         <MdMenuOpen id={styles.menuIcon} />
       </div>
       <section id={styles.content}>
-        <img className={styles.image} src="profile.jpg" alt="profile_pic" />
-        <div className={styles.title} style={titleDisplay}>
-          <h1
-            className={styles.title__name}
-            onClick={() => console.log(window.scrollY)}
-          >
-            Tyler Yates
-          </h1>
-          <h2>Web & Mobile Developer</h2>
-        </div>
+        {display && (
+          <div className={styles.title}>
+            <img className={styles.image} src="profile.jpg" alt="profile_pic" />
+            <h1
+              className={styles.title__name}
+              onClick={() => console.log(window.scrollY)}
+            >
+              Tyler Yates
+            </h1>
+            <h2>Web & Mobile Developer</h2>
+          </div>
+        )}
         <ul className={styles.navList}>
+          <h1 className={styles.navList__header}>Go to Section</h1>
           <Link to="homeScroller" spy={true} smooth={true} offset={-100}>
             <li
               className={`${styles.scrollLink} selectable`}
@@ -55,7 +58,7 @@ export default function Nav() {
               className={`${styles.scrollLink} selectable`}
               onClick={() => setIsOpen(false)}
             >
-              <p>Technologies</p>
+              <p>Tech</p>
               <MdArrowForwardIos className={styles.arrow} />
             </li>
           </Link>

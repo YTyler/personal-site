@@ -14,6 +14,7 @@ export default function Home() {
             background. Looking forward to working with a team and applying my
             naturally analytical mind in creative, new ways.
           </p>
+          <img className={styles.image} src="profile.jpg" alt="profile_pic" />
         </div>
       </div>
     </section>
