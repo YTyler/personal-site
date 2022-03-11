@@ -1,10 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { MdMenuOpen, MdArrowForwardIos } from "react-icons/md";
 import styles from "../styles/Nav.module.css";
 
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+  const [titleDisplay, setTitleDisplay] = useState({});
+
+  window.onscroll = () => {
+    if (window.scrollY > window.innerHeight) {
+      setTitleDisplay({ display: "inherit" });
+    } else {
+      setTitleDisplay({ display: "none" });
+    }
+  };
 
   return (
     <nav className={styles.container} id={isOpen ? styles.open : styles.closed}>
@@ -13,7 +22,15 @@ export default function Nav() {
       </div>
       <section id={styles.content}>
         <img className={styles.image} src="profile.jpg" alt="profile_pic" />
-        <h1 className={styles.title}>Tyler Yates</h1>
+        <div className={styles.title} style={titleDisplay}>
+          <h1
+            className={styles.title__name}
+            onClick={() => console.log(window.scrollY)}
+          >
+            Tyler Yates
+          </h1>
+          <h2>Web & Mobile Developer</h2>
+        </div>
         <ul className={styles.navList}>
           <Link to="homeScroller" spy={true} smooth={true} offset={-100}>
             <li
