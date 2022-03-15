@@ -15,7 +15,7 @@ export default function Contact() {
             title="Send me an email!"
           >
             <MdEmail className={styles.darkIcon} />
-            <p className={styles.label}>tyates907@gmail.com</p>
+            <p className={styles.label}>Email Me!</p>
           </a>
         </li>
         <li>
