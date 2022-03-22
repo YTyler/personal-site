@@ -1,13 +1,9 @@
-#container {
-  font-size: 1rem;
-}
-
 .techIcons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   font-size: 5em;
-  margin-top: 0.3em;
-  row-gap: 0.5em;
+  margin: 1em 0em;
+  row-gap: 1em;
   text-align: center;
   list-style-type: none;
 }

@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section className="mainRow" id={styles.container}>
       <span id="contactScroller"></span>
-      <h2 id={styles.header}>Contact</h2>
+      <h2 id={styles.header}>Contact Info</h2>
       <ul className={styles.links}>
         <li>
           <a
@@ -25,7 +25,7 @@ export default function Contact() {
             title="linkedin.com/in/tyler-yates"
           >
             <SiLinkedin id={styles.liIcon} />
-            <p className={styles.label}>LinkedIn Profile</p>
+            <p className={styles.label}>My LinkedIn</p>
           </a>
         </li>
         <li>

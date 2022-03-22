@@ -24,12 +24,7 @@ export default function Nav() {
         {display && (
           <div className={styles.title}>
             <img className={styles.image} src="profile.jpg" alt="profile_pic" />
-            <h1
-              className={styles.title__name}
-              onClick={() => console.log(window.scrollY)}
-            >
-              Tyler Yates
-            </h1>
+            <h1 className={styles.title__name}>Tyler Yates</h1>
             <h2>Web & Mobile Developer</h2>
           </div>
         )}

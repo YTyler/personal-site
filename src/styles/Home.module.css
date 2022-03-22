@@ -10,7 +10,7 @@
   display: flex;
   text-align: right;
   border-radius: 70px 0px 0px 70px;
-  padding: 0.5em 1em 2em 4em;
+  padding: 0em 1em 0em 4em;
   max-width: 90%;
   background: rgb(223, 223, 241);
 }
@@ -28,7 +28,7 @@
 }
 
 #content > p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0.5em 0em 1em;
 }
 
@@ -36,7 +36,7 @@
   margin: 0 auto;
   border: 1px solid rgb(195, 195, 195);
   border-radius: 2.5%;
-  max-width: max(25vh, 25%);
+  max-width: max(25vh, 30%);
   height: auto;
 }
 
